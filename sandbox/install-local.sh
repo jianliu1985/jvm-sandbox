@@ -25,6 +25,7 @@ usage: ${0} [h] [l:]
 
 
     -p : install local path
+         ./install-local.sh -p  /Users/work
          Install local path in this compute. Default install local path is ${SANDBOX_INSTALL_PREFIX}
 
 '
