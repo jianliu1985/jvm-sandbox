@@ -1,4 +1,4 @@
-package com.alibaba.jvm.sandbox.test.clock;
+package com.alibaba.jvm.sandbox.clock;
 
 import com.alibaba.jvm.sandbox.api.Information;
 import com.alibaba.jvm.sandbox.api.Module;
@@ -15,7 +15,7 @@ import javax.annotation.Resource;
 /**
  * Created by liujian.lj on 2017/12/7.
  */
-@Information(id = "broken-clock-tinker")
+@Information(id = "broken-clock-tinker" ,version = "0.0.1", author = "liujian.lj@alibaba-inc.com")
 public class BrokenClockTinkerModule implements Module {
 
     @Resource
